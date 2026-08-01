@@ -1,0 +1,24 @@
+generated: '2026-07-20'
+method: searched
+source: https://peppy.health
+note: >-
+  Peppy is an employee healthcare benefits platform with no public API surface.
+  This file records the compliance / information-security certifications the
+  company publishes on its marketing site. There is no OpenAPI to derive
+  cross-cutting technical standards from.
+standards:
+- id: iso-27001
+  conforms: true
+  evidence: ISO 27001 information-security certification published on peppy.health
+- id: soc-2
+  conforms: true
+  evidence: SOC 2 certification published on peppy.health
+- id: hipaa
+  conforms: true
+  evidence: HIPAA compliance published on peppy.health
+- id: gdpr
+  conforms: true
+  evidence: GDPR compliance published on peppy.health
+- id: nhs-dspt
+  conforms: true
+  evidence: NHS Data Security and Protection Toolkit (DSPT) published on peppy.health

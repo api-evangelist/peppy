@@ -1,7 +1,15 @@
 aid: peppy
 name: Peppy
-description: Peppy is a company surfaced as a portfolio company of seedcamp and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Peppy is a global employee healthcare benefits platform, delivered through a
+  mobile app, that connects workers with specialist clinicians across key life
+  stages. Offered by employers as a benefit, Peppy provides unlimited access to
+  practitioners covering women's health, men's health, fertility, pregnancy and
+  early parenthood, menopause, and neurodiversity, alongside lifestyle support
+  for nutrition, fitness, and mental wellbeing. Peppy operates a consumer and
+  employer facing service and does not publish a public developer API; this
+  profile captures its published web properties and security posture. Peppy is a
+  Seedcamp portfolio company.
 url: https://raw.githubusercontent.com/api-evangelist/peppy/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,11 +17,32 @@ x-backed-by:
 - seedcamp
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Health
+- Healthcare
+- Employee Benefits
+- Digital Health
+- Womens Health
+- Menopause
+- Fertility
+- Neurodiversity
+- Wellbeing
+image: https://peppy.health/hubfs/peppy-logo.png
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -22,4 +51,23 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: http://peppy.health
+  url: https://peppy.health
+- type: Blog
+  url: https://peppy.health/blogs
+- type: PrivacyPolicy
+  url: https://peppy.health/privacy-policy/
+- type: TermsOfService
+  url: https://peppy.health/end-user-licence-agreement-2026
+- type: Support
+  url: https://peppy.health/contact-us/
+- type: Compliance
+  url: https://peppy.health
+- type: Conformance
+  url: conformance/peppy-conformance.yml
+- type: DomainSecurity
+  url: security/peppy-domain-security.yml
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 2
+  pass: local-v1
